@@ -1,20 +1,22 @@
 .mat-card {
     border-radius: 32px;
-    margin: 10px 10px;
+    margin: 30px 30px;
     padding: 20px;
     border-color: #0a66c2;
 }
 .mat-card#first-card {
     padding: 0;
+    border-radius: 10px;
 }
 
-div#profile-backgroud {
+div#profile-backgroud  {
     display: flex;
     z-index: 1;
 }
 
 div#profile-backgroud img  {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border-radius:  32px 32px 0 0;
 }
 
@@ -27,4 +29,9 @@ div#profile-backgroud img  {
 }
 div#info-actions {
     display: flex;
+}
+
+.imgExp {
+    width: 200px;
+    border-radius:  32px 32px 0 0;
 }
